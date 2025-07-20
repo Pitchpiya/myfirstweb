@@ -3,41 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ร้านตุ๊กตาน่ารัก CMU</title>
+  <title>CMU Doll Shop</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #ffe6f0;
+      font-family: 'Prompt', sans-serif;
+      background-color: #fff0f5;
       margin: 0;
       padding: 0;
     }
     header {
       background-color: #ff99cc;
-      color: white;
       padding: 20px;
       text-align: center;
+      color: white;
     }
     .logo {
-      font-size: 2em;
+      font-size: 2.5em;
       font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo img {
+      width: 50px;
+      height: 50px;
     }
     .tagline {
       font-size: 1.2em;
-      margin-top: 5px;
+      margin-top: 10px;
     }
     .products {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
-      padding: 20px;
+      justify-content: center;
+      padding: 30px;
+      gap: 20px;
     }
     .product {
       background-color: white;
-      border: 2px solid #ffccdd;
-      border-radius: 10px;
-      margin: 10px;
-      padding: 15px;
+      border: 2px solid #ffcce0;
+      border-radius: 15px;
       width: 250px;
+      padding: 15px;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
@@ -45,67 +53,58 @@
       width: 100%;
       border-radius: 10px;
     }
+    .product h3 {
+      color: #cc3366;
+      margin: 10px 0 5px;
+    }
     .price {
       color: #ff3399;
       font-size: 1.2em;
-      margin-top: 10px;
+      font-weight: bold;
     }
     footer {
       background-color: #ff99cc;
       color: white;
       text-align: center;
-      padding: 10px;
-      margin-top: 20px;
+      padding: 15px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
+  <!-- โลโก้ร้าน -->
   <header>
-    <div class="logo">🌸 CMU Doll Shop 🌸</div>
-    <div class="tagline">ตุ๊กตาน่ารักเพื่อคนพิเศษในมหาวิทยาลัยเชียงใหม่</div>
+    <div class="logo">
+      https://cdn-icons-png.flaticon.com/512/616/616408.png
+      CMU Doll Shop
+    </div>
+    <div class="tagline">ตุ๊กตาน่ารักเพื่อคนพิเศษในมหาวิทยาลัยเชียงใหม่ 🎓💖</div>
   </header>
 
+  <!-- สินค้า -->
   <section class="products">
     <div class="product">
-      https://mediumandmore.com/wp-content/uploads/2023/07/a3e52574015eebe7ec9ea9c04dbcd7ba.jpg
-      <h3>ตุ๊กตาหมีชมพู</h3>
+      <img src="https://example.com/doll1.jpg" altตาหมีชมพู</h3>
       <div class="price">ราคา: 259 บาท</div>
     </div>
     <div class="product">
-      https://ae01.alicdn.com/kf/Sb6ef54c7381744378b4ce2a11a170a46V.jpg_640x640q90.jpg
-      <h3>ตุ๊กตาแมวน้อย</h3>
+      <img src="https://example.com/doll2.jpg" alt="ตุ๊กตอย</h3>
       <div class="price">ราคา: 199 บาท</div>
     </div>
     <div class="product">
-     https://cdn.ennxo.com/uploads/products/640/7ce303295d854366b569154a4263ec5a.jpgหหหหหหหหหหหหหหหหหหหหหหหหหห
-      <h3>ตุ๊กตากระต่ายฟูฟู</h3>
+      <img src="https://example.com/doll3.jpg" alt="กระต่ายฟูฟู</h3>
       <div class="price">ราคา: 289 บาท</div>
     </div>
   </section>
 
+  <!-- ส่วนท้าย -->
   <footer>
     ติดต่อเรา: @cmudollshop | ส่งฟรีในเขตมหาวิทยาลัยเชียงใหม่!
   </footer>
 
-  <div style="
-  background-color: #ffccdd;
-  padding: 20px;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-">
-  https://cdn-icons-png.flaticon.com/512/616/616408.png
-  <span style="font-size: 2em; color: #ff3399; font-weight: bold; margin-left: 10px;">
-    CMU Doll Shop
-  </span>
-  <div style="font-size: 1em; color: #cc3366; margin-top: 5px;">
-    ตุ๊กตาน่ารักเพื่อคนพิเศษในมหาวิทยาลัยเชียงใหม่
-  </div>
-</div>
-
 </body>
 </html>
+
 
 
